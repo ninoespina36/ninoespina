@@ -1,0 +1,50 @@
+.myself{
+	width: 300px;
+	height: 450px;
+}
+
+.name h6{
+	font-size: calc(1vw + 0.5rem);
+}
+
+.name h1{
+	font-weight: 900;
+	font-size: calc(4vw + 0.7rem);
+	background: -webkit-linear-gradient(0deg, #045965, #032729, #045965);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.name p{
+	font-size: calc(0.8vw + 0.5rem);
+}
+
+.name a{
+	border: 2px solid #045965;
+	border-radius: 25px;
+	padding: 10px 20px;
+	font-size: calc(0.5vw + 0.5rem);
+	background-color: transparent;
+	color: #045965;
+	text-decoration: none;
+	font-weight: 500;
+}
+
+
+@media (max-width: 970px){
+	.myself{
+		width: 180px;
+		height: 260px;
+	}
+
+	.name a{
+		padding: 5px 15px;
+	}
+}
+
+@media (max-width: 750px){
+	.myself{
+		width: 125px;
+		height: 190px;
+	}
+}

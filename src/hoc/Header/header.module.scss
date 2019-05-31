@@ -1,0 +1,90 @@
+.header{
+	position: relative;
+}
+
+.name{
+	display: flex;
+	position:absolute;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	width:100%;
+	z-index: 1;
+}
+
+.name h1{
+	color: #fff;
+	font-weight: 400;
+	font-size: calc(5vw + 1rem);
+}
+
+.name h1:before{
+	display: block;
+	content:'';
+	height: 1px;
+	width: calc(110%);
+	margin-left: -5%;
+	background-color: #fff;
+}
+
+.name h1:after{
+	display: block;
+	content:'';
+	height: 1px;
+	width: calc(110%);
+	margin-left: -5%;
+	background-color: #fff;
+}
+
+.title h4{
+	display: flex;
+	align-items: center;
+	position:absolute;
+	justify-content: center;
+	top: 15%;
+	left: 0;
+	color: #fff;
+	height: 100%;
+	width:100%;
+	font-size: 1.3rem;
+	font-weight: 400;
+}
+
+.cover img{
+	display: block;
+	max-height: calc(80vh);
+	max-width: 100vw;
+	width: 100vw;
+	margin: 0 calc(-50vw + 50%);
+	object-fit: cover;
+}
+
+.activeLink{
+	transition: all 0.5s ease;
+	color: #04b5ce !important;
+}
+
+@media (max-width: 970px){
+	.cover img{
+		max-height: calc(60vh);
+	}
+
+	.name{
+		top: 10%;
+	}
+
+	.title h4{
+		top: 25%;
+		font-size: 1.1rem;
+	}
+}
+
+@media (max-width: 750px){
+	.cover img{
+		max-height: calc(50vh);
+	}
+
+	.title h4{
+		font-size: 0.8rem;
+	}
+}
