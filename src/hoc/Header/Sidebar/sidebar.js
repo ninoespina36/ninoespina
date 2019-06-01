@@ -10,7 +10,7 @@ const  Sidebar = (props) => {
           	navStyle={{
 					backgroundColor: '#045965',
 					maxWidth:'250px',
-					boxShadow: 0,
+					boxShadow: 0
 			}}>
           		<ul className={style.links}>
 					{props.sideItems}

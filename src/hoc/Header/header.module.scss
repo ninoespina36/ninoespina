@@ -18,6 +18,16 @@
 	font-size: calc(5vw + 1rem);
 }
 
+.name span{
+	transition: 0.8s;
+}
+
+.name h1:hover{
+	span{
+		margin: 0 3%;
+	}
+}
+
 .name h1:before{
 	display: block;
 	content:'';

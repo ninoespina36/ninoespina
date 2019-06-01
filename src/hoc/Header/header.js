@@ -91,7 +91,7 @@ class Header extends Component{
 						sideItems={this.sideItems}/>
 
 					<div className={style.name}>
-						<h1>NINOESPINA</h1>
+						<h1><span>NINO</span><span>ESPINA</span></h1>
 					</div>
 
 					<div className={style.title}>
