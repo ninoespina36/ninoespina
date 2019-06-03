@@ -1,13 +1,9 @@
 .footer{
-	height: 200px;
 	color: #fff;
 	background-color: #045965;
 	background-image: url('/images/background.png');
 	background-size: 100vw;
-}
-
-.social{
-	margin-top: 50px; 
+	padding-bottom: 50px;
 }
 
 .social i{
@@ -18,3 +14,31 @@
 .social a{
 	color: #fff;
 }
+
+.disclaimer,.quick_links,.social,.contact_me{
+	margin-top: 50px;
+	font-size: 0.8rem;
+}
+
+
+.disclaimer p{
+	margin-top: 10px;
+}
+
+.quick_links a{
+	display: block;
+	color: #fff;
+}
+
+
+small a{
+	color: #fff !important;
+	text-decoration: none !important;
+}
+
+@media (max-width: 970px){
+	.social,.disclaimer,.quick_links,.contact_me{
+		text-align: center;
+	}
+}
+

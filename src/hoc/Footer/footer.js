@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container,Row,Col } from 'react-bootstrap';
 import style from './footer.module.scss';
+import { Link }  from 'react-router-dom';
 
 const Footer = () =>{
 	return (
@@ -8,10 +9,12 @@ const Footer = () =>{
 			<Container>
 				<Row>
 					<Col 
-						lg={4}
+						lg={2}
 						sm={12}
-						className={style.social} align="center">
-						Follow Me On:
+						className={style.social}>
+
+						<h6>FOLLOW ME ON</h6>
+
 						<div>
 							<a 
 								href="https://www.facebook.com/nino.espina1998" 
@@ -36,8 +39,49 @@ const Footer = () =>{
 							</a>
 						</div>
 					</Col>
+					<Col 
+						lg={6}
+						sm={12}
+						className={style.disclaimer}>
+						
+						<h6>DISCLAIMER</h6>
+
+						<div>
+							<p>This website is only for personal only. I did not copy any resources from web. I did not used any website builder tools. This website is hand coded.</p>
+						</div>
+					</Col>
+					<Col 
+						lg={2}
+						sm={12}
+						className={style.quick_links}>
+						
+						<h6>QUICK LINKS</h6>
+
+						<div>
+							<Link to="/about">About</Link>
+							<Link to="/skills">Skills</Link>
+							<Link to="/portfolio">Portfolio</Link>
+							<Link to="/resume">Resume</Link>
+						</div>
+					</Col>
+					<Col 
+						lg={2}
+						sm={12}
+						className={style.contact_me}>
+						
+						<h6>CONTACT ME</h6>
+
+						<div>
+							<p>You got any questions? Please <Link to="/contact" style={{color:'#fff',textDecoration:'underline'}}>contact me</Link> at your most convinient time. Thank you.</p>
+						</div>
+					</Col>
 				</Row>
 			</Container>
+
+			<small style={{position:'absolute',left: 20,bottom:5}}>All rights reserved 2019</small>
+			<small style={{position:'absolute',right: 20,bottom:5}}>
+				<Link to="/">Privacy & Terms</Link>
+			</small>
 		</div>
 	)
 }
