@@ -21,14 +21,20 @@
 }
 
 .name a{
-	border: 2px solid #045965;
-	border-radius: 25px;
+	border: 1px solid #045965;
+	border-radius: 5px;
 	padding: 10px 20px;
 	font-size: calc(0.5vw + 0.5rem);
 	background-color: transparent;
 	color: #045965;
 	text-decoration: none;
 	font-weight: 500;
+	transition: 0.3s;
+	font-weight: bold;
+}
+
+.name a:hover{
+	background-color: #f2f2f2;
 }
 
 

@@ -7,7 +7,7 @@ const Home = () =>{
 	return(	
 		<>
 			<Intro />
-			<Skills bg={{background:'#eaeaea'}} />
+			<Skills bg={{background:'#f4f4f4'}} />
 		</>
 	);
 }
