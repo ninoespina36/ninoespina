@@ -47,7 +47,8 @@ const Footer = () =>{
 						<h6>DISCLAIMER</h6>
 
 						<div>
-							<p>This website is only for personal only. I did not copy any resources from web. I did not used any website builder tools. This website is hand coded.</p>
+							<p>This Website is for portfolio only. Also, this site does not contain any copyrighted resources excluding <a href="https://www.freepik.com/" target="_blank"
+								rel="noopener noreferrer">freepik.com </a>. All resources are made by Niño Espina.</p>
 						</div>
 					</Col>
 					<Col 

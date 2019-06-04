@@ -17,7 +17,7 @@ const Skills  = (props) =>{
 		},
 		{
 			icon: 'fas fa-camera-retro',
-			title: 'Photo/Video Editing',
+			title: 'Multimedia Editing',
 			backgroundImage: 'url("/images/media.png")'
 		},
 	]

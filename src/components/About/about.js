@@ -14,9 +14,9 @@ const About = () =>{
 				<Col 
 					lg={8}
 					className="mt-lg-5 mb-5">
-					<h1 className={style.page_title}>ABOUT ME</h1>
+					<h1 className={style.page_title}>About Me</h1>
 
-					<p className="mt-5">My name is <b>Niño Christopher Tatad Espina</b>, a fresh graduate from Holy Name University Tagbilaran, City  Bohol, Philippines. I am passionate about Web Designing ang Web Developing. </p>
+					<p className="mt-4">My name is <b>Niño Christopher Tatad Espina</b>, a fresh graduate from Holy Name University Tagbilaran, City  Bohol, Philippines. I am passionate about Web Designing ang Web Developing. </p>
 
 					<p>I am not the best designer or a developer at my school, I am not even a top student in our class, I did not win any academic contest. I believe that success doesn’t define being the best at someone or something but being passionate of your masterpiece. I am not yet sucessful in life, but someday I am hoping my passion will bring me to success. Don’t let dreams be dreams. </p>
 

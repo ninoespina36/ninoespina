@@ -1,0 +1,55 @@
+img{
+	width: 60px;
+	transition: 0.3s all;
+}
+
+ul.skills_list {
+	margin: 50px 0;
+	padding: 0;
+
+	li{
+		display:inline-block;
+		margin: 10px;
+	}
+}
+
+.skill_item{
+	cursor: pointer;
+	position: relative;
+	width: 200px;
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.skill_item h6{
+	transition: 0.3s all;
+	margin-left: 10px;
+}
+
+.skill_item p{
+	transition: 0.3s all;
+	position: absolute;
+	opacity: 0;
+}
+
+.skill_item:hover{
+	img,h6{
+		transform: scale(0);
+		opacity: 0;
+	}
+
+	p{
+		opacity: 1;
+	}
+}
+
+.page_title{
+	border: 5px solid #045965;
+	font-weight:bold;
+	font-size: calc(2vw + 1rem);
+	color: #045965;
+	padding: 15px;
+	display: inline;
+}
